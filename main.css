@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body, 
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  background: #E8E8E8;
+}
+
+.badge-info {
+  background: #F0F8FF;
+  color: #696969;
+  font-weight: 300;
+}
