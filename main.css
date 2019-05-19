@@ -8,12 +8,29 @@ html {
   padding: 0;
 }
 
-a:hover {
-  background: #E8E8E8;
+a {
+  color: gray;
 }
 
-.badge-info {
-  background: #F0F8FF;
-  color: #696969;
+a:hover {
+  background: #E8E8E8;
+  color: black;
+}
+
+#genres-display .nav-link {
+  border-radius: 0px;
+}
+
+#genres-display .nav-link:first-child {
+  border-radius: 3px 3px 0 0;
+}
+
+#genres-display .nav-link:last-child {
+  border-radius: 0 0 3px 3px;
+}
+
+#movies-display .badge-info {
   font-weight: 300;
+  color: #696969;
+  background: #F0F8FF;
 }
