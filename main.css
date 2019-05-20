@@ -38,3 +38,9 @@ a:hover {
   color: #696969;
   background: #F0F8FF;
 }
+
+@media screen and (min-width: 960px) {
+  #movies-display .card .card-body {
+    min-height: 145px;
+  }
+}
