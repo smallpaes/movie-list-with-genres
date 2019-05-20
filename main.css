@@ -29,6 +29,10 @@ a:hover {
   border-radius: 0 0 3px 3px;
 }
 
+#movies-display .card .card-body {
+  min-height: 120px;
+}
+
 #movies-display .badge-info {
   font-weight: 300;
   color: #696969;
